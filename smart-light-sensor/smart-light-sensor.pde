@@ -56,8 +56,6 @@ void loop()
   // format data 
   char data[32];
   sprintf(data, "%d", val);
-  //USB.print(F("payload to send: "));
-  //USB.println(data);
 
   // send on lorawan
   USB.print(F("sending data on LoRaWAN..."));

@@ -26,7 +26,7 @@ void setup()
   USB.println(F("Setup LoRawan..."));
   error = LoRaWAN.ON(socket);
   ERR("switch on");
-  error = LoRaWAN.setDataRate(3);
+  error = LoRaWAN.setDataRate(5);
   ERR("data rate");
   error = LoRaWAN.setDeviceEUI(DEVICE_EUI);
   ERR("set device eui");

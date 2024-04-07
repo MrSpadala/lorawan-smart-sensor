@@ -16,6 +16,7 @@ void setup()
 {
   // put your setup code here, to run once
   USB.ON();
+  USB.println(F("Hello 5GAcademy!"));
   delay(2000);
   
   // high voltage on digital1 pin
@@ -65,5 +66,5 @@ void loop()
 
   // sleep for 1 second
   USB.println(F("sleeping..."));
-  delay(7000);
+  delay(10000);
 }
